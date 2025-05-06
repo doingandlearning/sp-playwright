@@ -4,6 +4,8 @@
 
 Participants will write a series of tests for a sample e-commerce checkout form, focusing on form interactions, validation, and submission. This lab will help you practice the concepts learned in the forms section.
 
+You can use this test site which is setup for testing:  https://shop.easy.nets.eu/
+
 ## Lab Exercises
 
 ### Exercise 1: Basic Form Interaction
