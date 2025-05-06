@@ -1,5 +1,13 @@
 # Playwright Testing Workshop
 
+- Date: Thursday 12th September
+- Instructor: Kevin Cunningham
+  - Email: kevin@kevincunningham.co.uk
+  - Website: https://kevincunningham.co.uk
+- Repo link: [Repo Link](https://github.com/doingandlearning/sp-playwright)
+- Feedback link: [Feedback]()
+- Miro board: [Miro](https://miro.com/app/board/uXjVI52kWYA=/?share_link_id=349755520538)
+
 ## Timings:
 
 - 9:30-11:00 Session 1
