@@ -31,13 +31,13 @@ By the end of this two-day workshop, participants will have a strong understandi
   - Introduce Playwright/TypeScript - why use a tool like Playwright?
   - Quick overview of Playwright’s key features.
 
-- **Lab 1**:
+- **Lab**:
   - Setting up the Playwright project.
   - Running the first basic test.
 
 ### Basics of Writing and Running Tests
 
-- **Lab 2**:
+- **Lab**:
   - Write a basic test.
   - Use `expect` assertions.
   - Use Playwright codegen to generate a test, and modify it to fit the real-world scenario.
@@ -56,7 +56,7 @@ By the end of this two-day workshop, participants will have a strong understandi
    - Discuss parameterized tests in depth, including edge cases.
    - Using different types of external data sources (CSV, JSON, databases).
 
-- **Lab 3**:
+- **Lab**:
   - Implement a parameterized test using external data sources.
   - Run tests with dynamic data and discuss test outcome interpretation.
 
@@ -73,7 +73,7 @@ By the end of this two-day workshop, participants will have a strong understandi
    - Capturing screenshots and video of tests.
    - Configure for debugging and reporting.
 
-- **Lab 4**:
+- **Lab**:
   - Use hooks to set up test preconditions.
   - Capture screenshots and videos, and inspect results.
 
@@ -88,7 +88,7 @@ By the end of this two-day workshop, participants will have a strong understandi
    - Managing complex UI flows and component abstractions.
    - Strategies for maintaining POMs in larger projects.
 
-- **Lab 5**:
+- **Lab**
   - Refactor an existing test suite into POM.
   - Implement a Page Object that represents a web page with multiple interactions.
 
@@ -103,7 +103,7 @@ By the end of this two-day workshop, participants will have a strong understandi
    - Using Playwright to mock API responses.
    - Stubbing network requests for testing different scenarios.
 
-- **Lab 6**:
+- **Lab**:
   - Write tests that hit real APIs, and then refactor the tests to mock the API calls.
 
 ---
@@ -124,7 +124,7 @@ By the end of this two-day workshop, participants will have a strong understandi
    - Using Playwright to simulate high-load scenarios.
    - Identifying performance bottlenecks in your tests.
 
-- **Lab 8**:
+- **Lab**:
   - Test file uploads and downloads.
   - Set up and run tests on mobile devices and different browsers.
   - Simulate and test performance degradation.
