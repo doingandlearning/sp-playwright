@@ -136,7 +136,7 @@ By the end of this two-day workshop, participants will have a strong understandi
 ## Additional Topics for Consideration (Optional for Q&A or Labs)
 
 - **Playwright Tracing**: Capturing and replaying traces for deeper investigation.
-- **Localization Testing**: Running tests across multiple languages and regions.
+- **Localisation Testing**: Running tests across multiple languages and regions.
 - **Web Accessibility**: Testing for accessibility issues using Playwright and tools like Axe.
-- **Advanced browser features**: Feolocation, permissions, and mobile testing.
+- **Advanced browser features**: Geolocation, permissions, and mobile testing.
 - **Reporting and metrics**: how to collect, analyse, and act on test reports.
