@@ -1,6 +1,6 @@
 # Playwright Testing Workshop
 
-- Date: Thursday 12th September
+- Date: Tuesday 6th and Wednesday 7th May
 - Instructor: Kevin Cunningham
   - Email: kevin@kevincunningham.co.uk
   - Website: https://kevincunningham.co.uk
