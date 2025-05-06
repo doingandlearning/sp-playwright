@@ -2,7 +2,7 @@
 
 ## Lab Scenario
 
-Participants will write a series of tests for a sample e-commerce website, focusing on core Playwright concepts learned in the basics section. This lab will help you practice writing your first tests, checking components, handling cookie banners and selecting elements like a user.
+Participants will write a series of tests for a selected website focusing on core Playwright concepts learned in the basics section. This lab will help you practice writing your first tests, checking components, handling cookie banners and selecting elements like a user.
 
 ## Lab Exercises
 
