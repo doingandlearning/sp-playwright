@@ -1,9 +1,11 @@
 import { test, expect } from "@playwright/test";
 
-test("test", async ({ page }) => {
+test("testing output field with parameterization", async ({ page }) => {
   await page.goto(
     "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output"
   );
+
+  await page.getByText("Accept all & visit the site").click();
 
   const buttonA = page
     .locator('iframe[name="iframeResult"]')
@@ -24,6 +26,16 @@ test("test", async ({ page }) => {
   for (const testCase of testCases) {
     await buttonA.fill(String(testCase.a));
     await buttonB.fill(String(testCase.b));
-    await expect(page.getByText(String(testCase.result))).toBeVisible(); // TODO: Why is this not working for 1100?
+    await page
+      .locator('iframe[name="iframeResult"]')
+      .contentFrame()
+      .locator("html")
+      .click();
+    await expect(
+      page
+        .locator('iframe[name="iframeResult"]')
+        .contentFrame()
+        .getByText(String(testCase.result))
+    ).toBeVisible();
   }
 });

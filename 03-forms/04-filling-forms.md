@@ -23,6 +23,12 @@
 
 ### Gotchas / Tips
 
+```js
+// [name, setName]  -> useState()
+<label htmlFor="name">Name:</label>
+<input value={name} onChange={() => }  name="name" id="name" data-test-id="nameField" />
+```
+
 - Form Identification:
   - Use stable selectors (name, id, data-testid)
   - Handle dynamic form fields
