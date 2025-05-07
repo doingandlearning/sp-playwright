@@ -5,7 +5,7 @@
   - Email: kevin@kevincunningham.co.uk
   - Website: https://kevincunningham.co.uk
 - Repo link: [Repo Link](https://github.com/doingandlearning/sp-playwright)
-- Feedback link: [Feedback]()
+- Feedback link: [Feedback](https://forms.office.com/e/CDKeAdBqK2)
 - Miro board: [Miro](https://miro.com/app/board/uXjVI52kWYA=/?share_link_id=349755520538)
 
 ## Timings:
