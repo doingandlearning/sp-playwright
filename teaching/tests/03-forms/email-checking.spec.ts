@@ -6,6 +6,7 @@ test("the email validation message displays appropriately", async ({
   if (testInfo.project.name === "chromium") {
     test.skip(true, "Failing in Chromium due to log in.");
   }
+
   await page.goto("https://www.scottishpower.co.uk/login");
 
   const emailInput = page.getByRole("textbox", { name: "Email address" });
@@ -28,6 +29,7 @@ test("the email validation message displays appropriately", async ({
     await emailInput.blur(); // Trigger React/Vue/Angular onChange events
     await expect(emailValidationMessage).toBeVisible();
   }
+  expect(true).toBe(false);
   await emailInput.fill("valid@domain.com");
   await expect(emailValidationMessage).not.toBeVisible();
 });
