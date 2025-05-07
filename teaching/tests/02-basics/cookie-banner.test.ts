@@ -4,7 +4,7 @@ test("cookie banner goes and stays gone between visits", async ({
   page,
 }, testInfo) => {
   if (testInfo.project.name === "chromium") {
-    test.skip(true, "Failing in Chromium due to log in.");
+    test.skip(true, "Failing in Chromium due to firewall");
   }
   await page.goto("https://www.scottishpower.co.uk/");
 

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Test Playwright Project",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "clean:videos": "rm -rf test-results/**/*.webm"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
